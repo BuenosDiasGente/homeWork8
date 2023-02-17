@@ -65,14 +65,15 @@ public class Main {
     public static void task4() {
         System.out.println("Задача № 4");
         int[] arr = new int[3];
-        arr[0] = 2;
+        arr[0] = 1;
         arr[1] = 2;
-        arr[2] = 4;
+        arr[2] = 3;
         for (int i = 0; i < arr.length; i++) {
-            if (arr[0]%2==0) {
-                System.out.println(Arrays.toString(arr));
+            if (arr[i]%2!=0) {
+               arr[i]++;
             }
             }
+        System.out.println(Arrays.toString(arr));
         }
     }
 
